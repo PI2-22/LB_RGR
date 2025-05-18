@@ -42,3 +42,5 @@ C:\rgr\obj\Debug\net9.0-windows\refint\WindowsFormsApp1.dll
 C:\rgr\obj\Debug\net9.0-windows\WindowsFormsApp1.pdb
 C:\rgr\obj\Debug\net9.0-windows\WindowsFormsApp1.genruntimeconfig.cache
 C:\rgr\obj\Debug\net9.0-windows\ref\WindowsFormsApp1.dll
+C:\rgr\obj\Debug\net9.0-windows\WindowsFormsApp1.Form2.resources
+C:\rgr\obj\Debug\net9.0-windows\WindowsFormsApp1.Form3.resources

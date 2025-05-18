@@ -70,7 +70,10 @@
             label19 = new System.Windows.Forms.Label();
             textBox17 = new System.Windows.Forms.TextBox();
             button5 = new System.Windows.Forms.Button();
+            button6 = new System.Windows.Forms.Button();
+            fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -258,7 +261,7 @@
             // 
             // textBox12
             // 
-            textBox12.Location = new System.Drawing.Point(801, 577);
+            textBox12.Location = new System.Drawing.Point(801, 580);
             textBox12.Name = "textBox12";
             textBox12.Size = new System.Drawing.Size(330, 31);
             textBox12.TabIndex = 28;
@@ -429,11 +432,27 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // button6
+            // 
+            button6.Location = new System.Drawing.Point(16, 681);
+            button6.Name = "button6";
+            button6.Size = new System.Drawing.Size(568, 41);
+            button6.TabIndex = 42;
+            button6.Text = "Выбрать другую таблицу";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // fileSystemWatcher1
+            // 
+            fileSystemWatcher1.EnableRaisingEvents = true;
+            fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1180, 865);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(textBox17);
             Controls.Add(label19);
@@ -481,6 +500,7 @@
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
             ResumeLayout(false);
             PerformLayout();
 
@@ -530,6 +550,8 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }
 
